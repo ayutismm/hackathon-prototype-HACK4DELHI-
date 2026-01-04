@@ -1,4 +1,4 @@
-# 🌫️ Delhi AQI Command - Ward-Wise Pollution Action Dashboard
+#  Delhi AQI Command - Ward-Wise Pollution Action Dashboard
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react" />
@@ -13,7 +13,7 @@
 
 ##  Features
 
-### 📊 Real-Time Pollution Monitoring
+###  Real-Time Pollution Monitoring
 - **Live AQI Data** from multiple sources (AQICN, OpenAQ, CPCB)
 - **72+ Delhi Wards** with individual pollution tracking
 - **Interactive Map** with color-coded AQI zones using Leaflet
