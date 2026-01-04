@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 📊 Real-Time Pollution Monitoring
 - **Live AQI Data** from multiple sources (AQICN, OpenAQ, CPCB)
@@ -19,18 +19,18 @@
 - **Interactive Map** with color-coded AQI zones using Leaflet
 - **Station Markers** showing actual monitoring station locations
 
-### 🧠 AI-Powered Analysis
+###  AI-Powered Analysis
 - **Inhouse Model Integration** for intelligent pollution source prediction
 - **Weather-Aware Recommendations** using OpenWeatherMap data
 - **Source Breakdown** (Vehicular, Industrial, Construction Dust, Biomass Burning)
 - **Actionable Recommendations** tailored to pollution levels
 
-### 🔬 Scientific Methodology
+###  Scientific Methodology
 - **Inverse Distance Weighting (IDW)** interpolation for ward-level AQI estimates
 - **Multi-pollutant analysis** (PM2.5, PM10, NO2, SO2, CO, O3)
 - **Real-time data aggregation** from multiple API sources
 
-### 🎮 Interactive Features
+###  Interactive Features
 - **Traffic Reduction Simulator** - Model impact of reducing vehicular emissions
 - **Citizen Report System** - Report pollution incidents (burning, dust, smoke)
 - **Top Polluted Wards Leaderboard** - Track the most affected areas
@@ -38,7 +38,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -72,7 +72,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Node.js** 18+ with npm
@@ -161,11 +161,11 @@ API_PRIORITY=aqicn,openaq
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 delhi-pollution-dashboard/
-├── 📂 backend/
+├──  backend/
 │   ├── main.py              # FastAPI app & endpoints
 │   ├── ai_analyzer.py       # AI-powered analysis module
 │   ├── aqi_fetcher.py       # Multi-source data aggregation
@@ -175,18 +175,18 @@ delhi-pollution-dashboard/
 │   ├── .env.example         # Environment template
 │   └── .env                  # Your API keys (gitignored)
 │
-├── 📂 src/
+├──  src/
 │   ├── App.jsx              # Main React component
 │   ├── main.jsx             # React entry point
 │   ├── index.css            # Global styles
-│   ├── 📂 components/
+│   ├──  components/
 │   │   ├── MapView.jsx      # Leaflet map component
 │   │   ├── Sidebar.jsx      # Stats & controls sidebar
 │   │   ├── DetailsPanel.jsx # Ward details panel
 │   │   └── ReportModal.jsx  # Citizen report form
-│   └── 📂 assets/
+│   └──  assets/
 │
-├── 📂 public/
+├──  public/
 │   └── Delhi_Wards.geojson  # Ward boundary data
 │
 ├── package.json             # Node dependencies
@@ -197,7 +197,7 @@ delhi-pollution-dashboard/
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -217,7 +217,7 @@ Full API documentation available at `http://localhost:8000/docs` when running.
 
 ---
 
-## 🎨 AQI Color Scale
+##  AQI Color Scale
 
 | AQI Range | Category | Color |
 |-----------|----------|-------|
@@ -230,7 +230,7 @@ Full API documentation available at `http://localhost:8000/docs` when running.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -240,13 +240,13 @@ Full API documentation available at `http://localhost:8000/docs` when running.
 
 ---
 
-## 📜 License
+##  License
 
 This project was developed for **Hack4Delhi Hackathon**.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **AQICN** for providing comprehensive air quality data
 - **OpenAQ** for open-source pollution data
@@ -255,6 +255,3 @@ This project was developed for **Hack4Delhi Hackathon**.
 
 ---
 
-<p align="center">
-  <b>Built with ❤️ for cleaner air in Delhi</b>
-</p>
