@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scipy
+pydantic
+sqlalchemy
+httpx
+python-dotenv
+apscheduler
+groq
